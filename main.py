@@ -8,7 +8,7 @@ def add_entry():
     email = entry_email.get("1.0", tk.END).strip()
     phone = entry_phone.get("1.0", tk.END).strip()
     address = entry_address.get("1.0", tk.END).strip()
-    
+   
 if not all([first_name, last_name, email, phone, address]):
         messagebox.showwarning("Incomplete Entry", "Please fill in all fields.")
         return
